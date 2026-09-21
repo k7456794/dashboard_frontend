@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const API_URL =
-  `${import.meta.env.API_URL}api/customers`;
+  `${import.meta.env.VITE_API_URL}/api/customers`;
 
 const DASHBOARD_UPDATE_EVENT =
   "dashboard-data-updated";

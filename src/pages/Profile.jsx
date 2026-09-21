@@ -1,7 +1,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
-const API_URL = `${import.meta.env.API_URL}api/auth`;
+const API_URL = `${import.meta.env.VITE_API_URL}/api/auth`;
 
 function Profile() {
   const [admin, setAdmin] = useState(null);
