@@ -5,7 +5,7 @@ import {
   useSearchParams,
 } from "react-router-dom";
 
-const API_URL = `${import.meta.env.VITE_API_URL}/auth`;
+const API_URL = `${import.meta.env.API_URL}/auth`;
 
 function Login({ onLogin }) {
   const navigate = useNavigate();

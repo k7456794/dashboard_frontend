@@ -15,7 +15,7 @@ import {
 } from "recharts";
 
 const API_URL =
-  `${import.meta.env.VITE_API_URL}/analytics`;
+  `${import.meta.env.API_URL}/analytics`;
 
 const REVENUE_COLORS = [
   "#2563eb",
