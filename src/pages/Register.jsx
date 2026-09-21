@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 
-const API_URL = `${import.meta.env.API_URL}/auth`;
+const API_URL = `${import.meta.env.API_URL}/api/auth`;
 
 function Register() {
   const navigate = useNavigate();
