@@ -19,7 +19,7 @@ import ChartCard from "../components/ChartCard";
 import RecentOrders from "../components/RecentOrders";
 
 const API_URL =
-  "https://dashboard-backend-pro.up.railway.app/api/analytics";
+  `${import.meta.env.VITE_API_URL}/analytics`;
 
 // Each month receives its own color.
 const REVENUE_COLORS = [

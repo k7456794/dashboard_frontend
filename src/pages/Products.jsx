@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const API_URL =
-  "https://dashboard-backend-pro.up.railway.app/api/products";
+  `${import.meta.env.VITE_API_URL}/products`;
 
 const DASHBOARD_UPDATE_EVENT =
   "dashboard-data-updated";

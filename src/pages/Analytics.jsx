@@ -15,7 +15,7 @@ import {
 } from "recharts";
 
 const API_URL =
-  "https://dashboard-backend-pro.up.railway.app/api/analytics";
+  `${import.meta.env.VITE_API_URL}/analytics`;
 
 const REVENUE_COLORS = [
   "#2563eb",
