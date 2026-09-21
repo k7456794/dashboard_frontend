@@ -2,7 +2,7 @@
 import { useEffect, useState } from "react";
 
 const API_URL =
-  `${import.meta.env.API_URL}/api/orders`;
+  `${import.meta.env.API_URL}api/orders`;
 
 // This event tells Dashboard and RecentOrders
 // that the data has changed.
